@@ -520,6 +520,11 @@ html {
     color: #1D1D1D;
     transition: .5s;
   }
+
+  .portner .partytext{
+    top: 19.5vw;
+  }
+
   .port {
     position: absolute;
     width: 60vw;
