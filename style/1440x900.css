@@ -58,7 +58,7 @@ html {
   .fix {
     position: fixed;
     width: 100%;
-    height: 4.5vw;
+    height: 4.8vw;
     left: 0px;
     top: 0px;
     transition: .5s;
@@ -125,7 +125,7 @@ html {
     height: 65vw;
     left: 0%;
     top: 0vw;
-    background: white;
+    background-image: url('../images/background-main.png');
     background-repeat: no-repeat;
     background-size: cover;
     transition: .5s;
@@ -141,7 +141,7 @@ html {
     line-height: 5.9vw;
     font-family: 'Conv_Golos Text_Medium';
     font-weight: 500;
-    color: black;
+    color: white;
     text-align: center;
     transition: .5s;
     z-index: -5;
@@ -156,7 +156,7 @@ html {
     line-height: 2vw;
     font-family: 'Conv_Golos Text_Medium';
     font-weight: 500;
-    color: black;
+    color: white;
     text-align: center;
     transition: .5s;
     z-index: -5;
@@ -207,7 +207,7 @@ html {
     height: 4.1vw;
     left: 36.77%;
     top: 45vw;
-    background: black;
+    background: white;
     border-radius: 43px;
     transition: .5s;
   }
@@ -220,7 +220,7 @@ html {
     font-size: 1.5vw;
     line-height: 2vw;
     font-family: 'Conv_Golos Text_Medium';
-    color: white;
+    color: black;
     text-align: center;
     transition: .5s;
     z-index: 2;
