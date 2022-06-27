@@ -1,0 +1,547 @@
+html {
+  background: #FFFFFF;
+  display: block;
+}
+
+  .forbody {
+    background: #FFFFFF;
+    transition: 1s;
+  }
+  .all {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    overflow: hidden;
+    z-index: -3;
+  }
+
+  /* .picture {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 4424px;
+    background: url(images/example.png);
+    opacity: .2;
+  } */
+
+
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .port img {
+    width: 60%;
+    margin-left: 21%;
+  }
+
+  .footer02 {
+    background-color: #1D1D1D;
+  }
+
+  a {
+    line-height: 1.5vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: black;
+    transition: .5s;
+  }
+  a:hover {
+    color: #C4C4C4;
+    transition: .1s;
+  }
+  .fix {
+    position: fixed;
+    width: 100%;
+    height: 4.5vw;
+    left: 0px;
+    top: 0px;
+    transition: .5s;
+    z-index: 15;
+    background-color: white;
+  }
+  .logo {
+    position: absolute;
+    width: 11.3%;
+    left: 5.5%;
+    top: 1.6vw;
+    transition: .5s;
+  }
+  .pro {
+    position: absolute;
+    width: 11.3%;
+    height: 52px;
+    left: 47%;
+    top: 1.6vw;
+    color: white;
+    transition: .5s;
+  }
+  .partner {
+    position: absolute;
+    width: 11.3%;
+    height: 52px;
+    left: 58%;
+    top: 1.6vw;
+    color: white;
+    transition: .5s;
+  }
+  .contact {
+    position: absolute;
+    width: 11.3%;
+    height: 52px;
+    left: 69%;
+    top: 1.6vw;
+    color: white;
+    transition: .5s;
+  }
+  .sub {
+    position: absolute;
+    width: 11.3%;
+    height: 2.77vw;
+    left: 79.375%;
+    top: 0.9vw;
+    color: #1D1D1D;
+    border: 2px solid black;
+    border-radius: 43px;
+    transition: .5s;
+  }
+  .sub2 {
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    left: 15%;
+    top: 0.6vw;
+    color: white;
+    transition: .5s;
+  }
+  .oblozka {
+    position: relative;
+    width: 100vw;
+    height: 65vw;
+    left: 0%;
+    top: 0vw;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s;
+    z-index: -10;
+  }
+  .headermain {
+    position: absolute;
+    width: 66.3vw;
+    height: 82px;
+    left: 16.275%;
+    top: 17.29vw;
+    font-size: 5vw;
+    line-height: 5.9vw;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    transition: .5s;
+    z-index: -5;
+  }
+  .headermain2 {
+    position: absolute;
+    width: 66.3vw;
+    height: 82px;
+    left: 16.275%;
+    top: 40.29vw;
+    font-size: 1.6vw;
+    line-height: 2vw;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    transition: .5s;
+    z-index: -5;
+  }
+  .stiker1 {
+    position: absolute;
+    width: 11.4vw;
+    left: 5.4%;
+    top: 7.5vw;
+    transform: rotate(24.49deg);
+    transition: .5s;
+  }
+  .stiker2 {
+    position: absolute;
+    width: 11.4vw;
+    left: 82.7%;
+    top: 13.8vw;
+    transform: rotate(-14.22deg);
+    transition: .5s;
+  }
+  .stiker3 {
+    position: absolute;
+    width: 11.4vw;
+    left: 6.5%;
+    top: 38.3vw;
+    transform: rotate(-15deg);
+    transition: .5s;
+  }
+  .stiker4 {
+    position: absolute;
+    width: 11.4vw;
+    left: 15.26%;
+    top: 42.3vw;
+    transform: rotate(13.2deg);
+    transition: .5s;
+  }
+  .stiker5 {
+    position: absolute;
+    width: 11.4vw;
+    left: 84.51%;
+    top: 37.3vw;
+    transform: rotate(34.92deg);
+    transition: .5s;
+  }
+  .rass {
+    position: absolute;
+    width: 27.5vw;
+    height: 4.1vw;
+    left: 36.77%;
+    top: 45vw;
+    background: black;
+    border-radius: 43px;
+    transition: .5s;
+  }
+  .rass2 {
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    left: 0px;
+    top: 1vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    font-family: 'Conv_Golos Text_Medium';
+    color: white;
+    text-align: center;
+    transition: .5s;
+    z-index: 2;
+  }
+  .background {
+    position: relative;
+    width: 100vw;
+    height: 58vw;
+    left: 0%;
+    top: 0vw;
+    background: #1D1D1D;
+    transition: .5s;
+  }
+  .opisanie {
+    position: absolute;
+    width: 86.1vw;
+    height: 82px;
+    left: 6.9%;
+    top: 9.3vw;
+    font-size: 5vw;
+    line-height: 5.9vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+  }
+  .party {
+    position: relative;
+    width: 100vw;
+    height: 48vw;
+    left: 0%;
+    top: 0vw;
+    background: #FFFFFF;
+    transition: .5s;
+  }
+  .partyhead {
+    position: absolute;
+    width: 42.3vw;
+    height: 82px;
+    left: 5.6%;
+    top: 10.8vw;
+    font-size: 4.2vw;
+    line-height: 107%;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+  }
+  .partyhead02 {
+    color: black;
+  }
+  .partytext {
+    position: absolute;
+    width: 42.3vw;
+    height: 82px;
+    left: 5.6%;
+    top: 23.5vw;
+    font-size: 2.2vw;
+    line-height: 2.6vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+  }
+
+  .partytext02 {
+    color: black;
+  }
+  .partyimg {
+    position: absolute;
+    width: 50vw;
+    right: 0vw;
+    top: 0vw;
+    transition: .5s;
+  }
+  .stikes6 {
+    position: absolute;
+    width: 8.8vw;
+    left: 47.26%;
+    top: 5.4vw;
+    transform: rotate(13.2deg);
+    transition: .5s;
+  }
+  .stikes7 {
+    position: absolute;
+    width: 7.8vw;
+    left: 55%;
+    top: 33.8vw;
+    transform: rotate(11.62deg);
+    transition: .5s;
+  }
+  .stikes8 {
+    position: absolute;
+    width: 8.8vw;
+    left: 83.4%;
+    top: 42vw;
+    transform: rotate(27.33deg);
+    transition: .5s;
+  }
+  .find {
+    position: relative;
+    width: 100vw;
+    height: 49vw;
+    left: 0%;
+    top: 0vw;
+    background: black;
+    transition: .5s;
+  }
+  .findhead {
+    position: absolute;
+    width: 42.3vw;
+    height: 82px;
+    left: 56.1%;
+    top: 14.8vw;
+    font-size: 4.2vw;
+    line-height: 107%;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+  }
+  .blackk {
+    position: absolute;
+    width: 50vw;
+    height: 49vw;
+    left: 0vw;
+    top: 0vw;
+    background: black;
+    transition: .5s;
+    z-index: 2;
+  }
+  .gifka1 {
+    position: absolute;
+    width: 50vw;
+    left: 0%;
+    top: 0vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .findtext {
+    position: absolute;
+    width: 32.3vw;
+    height: 82px;
+    left: 56.1%;
+    top: 26.5vw;
+    font-size: 2.2vw;
+    line-height: 2.6vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+  }
+  .verity {
+    position: relative;
+    width: 100vw;
+    height: 65vw;
+    left: 0%;
+    top: 0vw;
+    background: #FFFFFF;
+    transition: .5s;
+  }
+  .verityhead {
+    position: absolute;
+    width: 42.3vw;
+    height: 82px;
+    left: 6.9%;
+    top: 6.9vw;
+    font-size: 4.2vw;
+    line-height: 107%;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .veritytext {
+    position: absolute;
+    width: 42.3vw;
+    height: 82px;
+    left: 50.6%;
+    top: 6.9vw;
+    font-size: 2.2vw;
+    line-height: 2.6vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .gifka2 {
+    position: absolute;
+    width: 100vw;
+    left: 0%;
+    top: 32vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .gifka3 {
+    position: absolute;
+    width: 100vw;
+    left: 0%;
+    top: 39vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .gifka4 {
+    position: absolute;
+    width: 100vw;
+    left: 0%;
+    top: 46vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .delis {
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+    left: 0%;
+    top: 0vw;
+    background: black;
+    transition: .5s;
+  }
+  .blackk2 {
+    position: absolute;
+    width: 50vw;
+    height: 49vw;
+    right: 0vw;
+    top: 0vw;
+    background: #1D1D1D;
+    transition: .5s;
+    z-index: 2;
+  }
+  .gifka5 {
+    position: absolute;
+    width: 50vw;
+    left: 50%;
+    top: 0vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .explore {
+    position: relative;
+    width: 100vw;
+    height: 49vw;
+    left: 0%;
+    top: 0vw;
+    background: black;
+    transition: .5s;
+  }
+  .expo {
+    position: absolute;
+    width: 30vw;
+    left: 10%;
+    top: 5vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .backgroundmis {
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+    left: 0%;
+    top: 0vw;
+    background: #5920E9;
+    transition: .5s;
+  }
+  .opisaniemis {
+    position: absolute;
+    width: 86.1vw;
+    height: 82px;
+    left: 6.9%;
+    top: 12.3vw;
+    font-size: 4.1vw;
+    line-height: 5vw;
+    font-family: 'Conv_Golos Text_Medium';
+    font-weight: 500;
+    color: white;
+    transition: .5s;
+  }
+  .portner {
+    position: relative;
+    width: 100vw;
+    height: 65vw;
+    left: 0%;
+    top: 0vw;
+    background: #FFFFFF;
+    transition: .5s;
+  }
+  .portnertext {
+    position: absolute;
+    width: 42.3vw;
+    height: 82px;
+    left: 5.6%;
+    top: 19.5vw;
+    font-size: 2.2vw;
+    line-height: 2.6vw;
+    font-family: 'Conv_Golos Text_Regular';
+    font-weight: 500;
+    color: #1D1D1D;
+    transition: .5s;
+  }
+  .port {
+    position: absolute;
+    width: 60vw;
+    left: 20%;
+    top: 30vw;
+    transition: .5s;
+    z-index: 3;
+  }
+  .footer {
+    position: relative;
+    width: 100vw;
+    height: 58vw;
+    left: 0%;
+    top: 0vw;
+    background: #1D1D1D;
+    transition: .5s;
+  }
+  .foot {
+    position: absolute;
+    width: 100vw;
+    left: 0%;
+    top: -4vw;
+    transition: .5s;
+    z-index: 3;
+  }

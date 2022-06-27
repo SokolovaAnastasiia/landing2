@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel='stylesheet' media='screen and (min-width: 367px) and (max-width: 2540px)' href='style/1440x900.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+    @font-face {
+    	font-family: 'Conv_Golos Text_Medium';
+    	src: url('fonts/Golos Text_Medium.eot');
+    	src: local('☺'), url('fonts/Golos Text_Medium.woff') format('woff'), url('fonts/Golos Text_Medium.ttf') format('truetype'), url('fonts/Golos Text_Medium.svg') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+    @font-face {
+    	font-family: 'Conv_Golos Text_Regular';
+    	src: url('fonts/Golos Text_Regular.eot');
+    	src: local('☺'), url('fonts/Golos Text_Regular.woff') format('woff'), url('fonts/Golos Text_Regular.ttf') format('truetype'), url('fonts/Golos Text_Regular.svg') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+    @font-face {
+    	font-family: 'Conv_Golos Text_DemiBold';
+    	src: url('fonts/Golos Text_DemiBold.eot');
+    	src: local('☺'), url('fonts/Golos Text_DemiBold.woff') format('woff'), url('fonts/Golos Text_DemiBold.ttf') format('truetype'), url('fonts/Golos Text_DemiBold.svg') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+    }
+
+    </style>
+    <script>
+    $(document).ready(function(){
+  $(window).scroll(function () {
+      if ($(this).scrollTop() > 0) {
+          $(".logo").fadeIn();
+      } else {
+          $(".logo").fadeIn();
+      }
+  });
+  $(".logo").click(function () {
+      $('body,html').animate({
+          scrollTop: 0
+      }, 400);
+      return false;
+  });
+});
+
+$(function() {
+	$('.fix a').each(function() {
+		$(this).on('click', function(e) {
+			e.preventDefault();
+			var scrollTo = $(this).attr('href');
+			var whitespace = scrollTo == '#s1' ? 70 : 30;
+			$('html,body').animate({
+				scrollTop: $(scrollTo).offset().top - whitespace
+			}, 1000);
+		});
+	});
+});
+
+    </script>
+  </head>
+  <body>
+    <body class="forbody"></body>
+    <div class="picture"></div>
+    <div class="all">
+
+    <div class="fix">
+      <div class="logo">
+        <img src="images/logo.png" alt="">
+      </div>
+      <div class="pro">
+        <a href="#pror">О сервисе</a>
+      </div>
+      <div class="partner">
+        <a href="#prorr">Партнёры</a>
+      </div>
+      <div class="contact">
+        <a href="#prorrt">Контакты</a>
+      </div>
+      <div class="sub">
+        <div class="sub2">
+          <a href="#prorrt">Подписаться</a>
+        </div>
+      </div>
+    </div>
+    <div class="oblozka">
+      
+    <div class="headermain">Находите новые звуки, делитесь плейлистами<br>
+     и обсуждайте музыку</div>
+    <div class="stiker1">
+      <img src="images/Frame 81.png" alt="">
+    </div>
+    <div class="stiker2">
+      <img src="images/Frame 70.png" alt="">
+    </div>
+    <div class="stiker3">
+      <img src="images/Frame 76.png" alt="">
+    </div>
+    <div class="stiker4">
+      <img src="images/Frame 77.png" alt="">
+    </div>
+    <div class="stiker5">
+      <img src="images/Frame 79.png" alt="">
+    </div>
+    <div class="headermain2">Запуск нового медиа-сервиса уже в 2022 году</div>
+    <div class="rass">
+      <div class="rass2">
+        Прикоснуться к миру музыки
+      </div>
+    </div>
+    </div>
+    <div class="find">
+      <div class="findhead">
+        Найди плейлист себе по вкусу.
+      </div>
+      <div class="findtext">
+        В Listium ты сможешь найти плейлист, который идеально подойдёт тебе.
+      </div>
+      <div class="blackk"></div>
+      <div class="gifka1">
+        <img src="images/gifka1.gif" alt="">
+      </div>
+    </div>
+    <div class="delis">
+      <div class="partyhead">
+        Делись плейлистами.
+      </div>
+      <div class="partytext">
+        В Listium ты сможешь делиться плейлистами с другими пользователями.
+      </div>
+      <div class="blackk2"></div>
+      <div class="gifka5">
+        <img src="images/gifka5.gif" alt="">
+      </div>
+    </div>
+    <div class="explore">
+      <div class="findhead">
+        Исследуй вкусы своих друзей.
+      </div>
+      <div class="findtext">
+        В Listium ты сможешь услышать плейлисты других пользователей.
+      </div>
+      <div class="blackk"></div>
+      <div class="expo">
+        <img src="images/explore.png" alt="">
+      </div>
+    </div>
+    <div class="party">
+      <div class="partyhead partyhead02">
+        Вечеринка будет самой яркой!
+      </div>
+      <div class="partytext partytext02">
+        В Listium собраны плейлисты <br>для любого праздниа. Намечается день рождения, выпускной или свадьба? У нас точно найдутся подходящие плейлисты!
+      </div>
+      <div class="partyimg">
+        <img src="images/Group 2303.png" alt="">
+      </div>
+      <div class="stikes6">
+        <img src="images/Frame 70.png" alt="">
+      </div>
+      <div class="stikes7">
+        <img src="images/Frame 76.png" alt="">
+      </div>
+      <div class="stikes8">
+        <img src="images/Frame 79.png" alt="">
+      </div>
+    </div>
+
+    <div class="verity">
+      <div class="verityhead">
+        <font color="#EE754A">56</font> и более музыкальных жанров и тегов
+      </div>
+      <div class="veritytext">
+        Бесконечное множество подборок, жанров и тегов ждут тебя. Тебе больше не придётся слушать одну и ту же музыку по кругу, если ты воспользуешься нашими системами поиска.
+      </div>
+      <div class="gifka2">
+        <img src="images/linia1.gif" alt="">
+      </div>
+      <div class="gifka3">
+        <img src="images/linia2.gif" alt="">
+      </div>
+      <div class="gifka4">
+        <img src="images/linia3.gif" alt="">
+      </div>
+    </div>
+
+    <div class="portner">
+      <div class="partyhead partyhead02">
+        Наши партнёры
+      </div>
+      <div class="partytext partytext02">
+        Музыканты и профи теперь смогут делиться своими мыслями при помощи статей. Если вам интересен мир музыки изнутри, то этот раздел точно для вас.
+      </div>
+      <div class="port">
+        <img src="images/portner.png" alt="">
+      </div>
+    </div>
+    <div class="footer">
+      <div class="foot">
+        <img src="images/Group 810.png" alt="">
+      </div>
+    </div>
+    <div class="footer02">
+      <img src="images/footer02.png" alt="">
+    </div>
+
+
+
+  </div>
+
+
+  </body>
+</html>
